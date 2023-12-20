@@ -1,0 +1,134 @@
+/* style of seo */
+
+.gradient1 {
+    background: linear-gradient(90deg, #001AA1 28.53%, #00B8F3 99.95%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gradient1-dark{
+    background: linear-gradient(90deg, #ffffff 28.53%, #ffffff 99.95%);
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+
+/* what we do */
+
+.what-we-do{
+    padding: 5% 0%;
+}
+
+.what-we-do .card {
+    border: none;
+    /* width: 25rem; */
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.05);
+}
+.what-we-do .card img{
+border-radius: 10px;
+}
+
+
+.what-we-do .card .card-body {
+    padding: 25px;
+}
+
+
+.what-we-do .content-box {
+    margin: 60px 0 0 0;
+}
+
+.what-we-do .card .card-title {
+    padding: 15px 0px;
+    color: #2F2F8F;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 0;
+}
+
+.what-we-do .card .card-text {
+    color: #2F2F8F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 20.8px;
+}
+
+/* Case study */
+
+.case-study{
+    padding: 5% 0%;
+}
+
+.case-study .content-box .card {
+    border: none;
+    cursor: n-resize;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+}
+
+.case-study .content-box .card img {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    height: 270px;
+    transition: 8s all ease;
+}
+
+.case-study .content-box .card img:hover {
+    object-position: bottom;
+}
+
+
+.case-study .content-box .card .card-title {
+    color: #2F2F8F;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 26px;
+}
+
+.case-study .content-box .card .card-text{
+    margin: 0;
+}
+
+.case-study .content-box{
+    margin: 40px 0 0 0;
+}
+
+.case-study .content-box .keyword h6{
+    font-size: 18px;
+    padding: 15px 0;
+}
+
+
+.case-study .content-box .keyword img{
+    height: auto;
+    max-width: 20px;
+}
+
+.img-filter-dark{
+    filter: brightness(0) invert(1);
+}
+
+
+
+.case-study .content-box .keyword li{
+    list-style: none;
+}
+
+.case-study .content-box .keyword .keyword-content{
+    display: flex;
+    justify-content: start;
+}
+
+.case-study .content-box .keyword .keyword-content p{
+    margin: 0;
+}
+
+.case-study .content-box .keyword .keyword-content div:first-child{
+    padding: 0 10px 0 0;
+}
